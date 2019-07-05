@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/jannydiamond/spirit-island-scoring-app/tree/development.svg?style=svg)](https://circleci.com/gh/jannydiamond/spirit-island-scoring-app/tree/development)
+[![App](https://img.shields.io/badge/App%3A-https%3A%2F%2Fjannydiamond.github.io%2Fspirit--island--scoring--app-orange.svg)](https://jannydiamond.github.io/spirit-island-scoring-app/)
+[![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
+
 # spirit-island-scoring-app
 The Spirit Island Scoring App is an unofficial companion App for the Board Game Spirit Island.
 
