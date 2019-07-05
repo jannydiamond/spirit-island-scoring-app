@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/spirit-island-scoring-app
+    docker:
+      - image: circleci/node:11.10.0
+    steps:
+      - checkout
+
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - dependency-cache-{{ checksum "package.json" }}
+
+      - run:
+          name: install-dependencies
+          command: npm install
+
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: dependency-cache-{{ checksum "package.json" }}
+
+      # run tests!
+      - run: 
+          name: test
+          command: npm test
