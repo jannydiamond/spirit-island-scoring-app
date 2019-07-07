@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/spirit-island-scoring-app/static/js/main.e883bf42.chunk.js",
-    "main.js.map": "/spirit-island-scoring-app/static/js/main.e883bf42.chunk.js.map",
+    "main.js": "/spirit-island-scoring-app/static/js/main.e4c9109c.chunk.js",
+    "main.js.map": "/spirit-island-scoring-app/static/js/main.e4c9109c.chunk.js.map",
     "runtime~main.js": "/spirit-island-scoring-app/static/js/runtime~main.dc13e0a8.js",
     "runtime~main.js.map": "/spirit-island-scoring-app/static/js/runtime~main.dc13e0a8.js.map",
     "static/css/2.e1934e69.chunk.css": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css",
-    "static/js/2.dc7bd2c7.chunk.js": "/spirit-island-scoring-app/static/js/2.dc7bd2c7.chunk.js",
-    "static/js/2.dc7bd2c7.chunk.js.map": "/spirit-island-scoring-app/static/js/2.dc7bd2c7.chunk.js.map",
+    "static/js/2.fbe6b160.chunk.js": "/spirit-island-scoring-app/static/js/2.fbe6b160.chunk.js",
+    "static/js/2.fbe6b160.chunk.js.map": "/spirit-island-scoring-app/static/js/2.fbe6b160.chunk.js.map",
     "index.html": "/spirit-island-scoring-app/index.html",
-    "precache-manifest.9a7e95eab469d4a49596ad7d03c5419d.js": "/spirit-island-scoring-app/precache-manifest.9a7e95eab469d4a49596ad7d03c5419d.js",
+    "precache-manifest.cc47ddcab97cf453a2ccd6a86c7464db.js": "/spirit-island-scoring-app/precache-manifest.cc47ddcab97cf453a2ccd6a86c7464db.js",
     "service-worker.js": "/spirit-island-scoring-app/service-worker.js",
     "static/css/2.e1934e69.chunk.css.map": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css.map",
     "static/media/rpg-awesome.min.css": "/spirit-island-scoring-app/static/media/rpgawesome-webfont.e31a701a.woff"
