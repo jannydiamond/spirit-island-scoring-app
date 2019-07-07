@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.eb4581e7.chunk.js",
-    "main.js.map": "/static/js/main.eb4581e7.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.e900f159.chunk.css": "/static/css/2.e900f159.chunk.css",
-    "static/js/2.81dbdeae.chunk.js": "/static/js/2.81dbdeae.chunk.js",
-    "static/js/2.81dbdeae.chunk.js.map": "/static/js/2.81dbdeae.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.07c0b19be1c5a37a3f63806d52ad37a5.js": "/precache-manifest.07c0b19be1c5a37a3f63806d52ad37a5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.e900f159.chunk.css.map": "/static/css/2.e900f159.chunk.css.map",
-    "static/media/rpg-awesome.min.css": "/static/media/rpgawesome-webfont.e31a701a.woff"
+    "main.js": "/spirit-island-scoring-app/static/js/main.25832da6.chunk.js",
+    "main.js.map": "/spirit-island-scoring-app/static/js/main.25832da6.chunk.js.map",
+    "runtime~main.js": "/spirit-island-scoring-app/static/js/runtime~main.dc13e0a8.js",
+    "runtime~main.js.map": "/spirit-island-scoring-app/static/js/runtime~main.dc13e0a8.js.map",
+    "static/css/2.e1934e69.chunk.css": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css",
+    "static/js/2.dc7bd2c7.chunk.js": "/spirit-island-scoring-app/static/js/2.dc7bd2c7.chunk.js",
+    "static/js/2.dc7bd2c7.chunk.js.map": "/spirit-island-scoring-app/static/js/2.dc7bd2c7.chunk.js.map",
+    "index.html": "/spirit-island-scoring-app/index.html",
+    "precache-manifest.5b33ee2f93d278e11102aedff92b0198.js": "/spirit-island-scoring-app/precache-manifest.5b33ee2f93d278e11102aedff92b0198.js",
+    "service-worker.js": "/spirit-island-scoring-app/service-worker.js",
+    "static/css/2.e1934e69.chunk.css.map": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css.map",
+    "static/media/rpg-awesome.min.css": "/spirit-island-scoring-app/static/media/rpgawesome-webfont.e31a701a.woff"
   }
 }
