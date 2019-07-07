@@ -1,9 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
+import 'rpg-awesome/css/rpg-awesome.min.css';
 
 const GlobalStyle = createGlobalStyle`
   body {
+    padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
