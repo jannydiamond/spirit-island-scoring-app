@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d6575ab309e0fdc60bd6168da2d49f6",
+    "revision": "f54aa18697441bdf8f9dcd40c51c2b28",
     "url": "/spirit-island-scoring-app/index.html"
   },
   {
-    "revision": "e175e0e4623674003365",
+    "revision": "291382f203400ab5cfcc",
     "url": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css"
   },
   {
-    "revision": "e175e0e4623674003365",
-    "url": "/spirit-island-scoring-app/static/js/2.fbe6b160.chunk.js"
+    "revision": "291382f203400ab5cfcc",
+    "url": "/spirit-island-scoring-app/static/js/2.63c4ca4f.chunk.js"
   },
   {
-    "revision": "795363f8716b34a3f990",
-    "url": "/spirit-island-scoring-app/static/js/main.e4c9109c.chunk.js"
+    "revision": "e75323d22e71fd76996d",
+    "url": "/spirit-island-scoring-app/static/js/main.84f55424.chunk.js"
   },
   {
     "revision": "c27bc88409baf05ef1f2",
