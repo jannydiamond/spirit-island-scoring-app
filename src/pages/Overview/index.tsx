@@ -11,9 +11,12 @@ import { Game } from './types';
 
 const Overview = () => {
   const renderTiles = () => {
-    return Games.map((game: Game) => (
-      <Tile to="#" key={game.id} game={game}/>
-    ));
+    return Games.map((game: Game) => {
+      const linkUrl = `/scoring/${game.id}`
+      return (
+        <Tile to={linkUrl} key={game.id} game={game} />
+      )
+    });
   }
 
   return (

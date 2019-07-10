@@ -17,6 +17,7 @@ const Header = styled(HeaderBase)`
   h1 {
     font-size: 1.5rem;
     margin: 0;
+    flex: 1 1 auto;
   }
 `;
 
