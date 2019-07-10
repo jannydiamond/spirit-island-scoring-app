@@ -1,7 +1,7 @@
 import React from 'react';
 import SpiritBadge from '../SpiritBadge/index';
 
-import { Player } from '../types';
+import { Player } from '../../../types';
 
 type Props = {
   players: Player[],

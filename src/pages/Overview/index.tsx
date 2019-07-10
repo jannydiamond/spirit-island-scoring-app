@@ -2,12 +2,12 @@ import React from 'react';
 import Header from '../../components/Header';
 
 import Content from './Content';
-import FloatingButton from './FloatingButton';
+import FloatingButton from '../../components/FloatingButton';
 
 import Tile from './Tile';
 
-import { Games } from './data';
-import { Game } from './types';
+import { Games } from '../../data';
+import { Game } from '../../types';
 
 const Overview = () => {
   const renderTiles = () => {

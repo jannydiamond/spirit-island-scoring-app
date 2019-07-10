@@ -6,7 +6,7 @@ import TileInfoList from '../TileInfoList';
 import TileSpiritList from '../TileSpiritList';
 import Scoring from '../Scoring';
 
-import { Game } from '../types';
+import { Game } from '../../../types';
 
 type Props = {
   to: string,
