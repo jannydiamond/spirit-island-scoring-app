@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/spirit-island-scoring-app/precache-manifest.1390e93e86ab283ee5951245907d78b2.js"
+  "/spirit-island-scoring-app/precache-manifest.3b0fb5cddbd1835a020beec09772d84e.js"
 );
 
 self.addEventListener('message', (event) => {
