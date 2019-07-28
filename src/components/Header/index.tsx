@@ -11,6 +11,7 @@ const Header = styled(HeaderBase)`
   padding: 0 16px;
   position: fixed;
   top: 0;
+  z-index: 50;
   width: calc(100% - 32px);
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
 
