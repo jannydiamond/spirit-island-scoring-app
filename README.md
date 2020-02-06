@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/jannydiamond/spirit-island-scoring-app/tree/development.svg?style=svg)](https://circleci.com/gh/jannydiamond/spirit-island-scoring-app/tree/development)
+[![Coverage Status](https://coveralls.io/repos/github/jannydiamond/spirit-island-scoring-app/badge.svg?branch=development)](https://coveralls.io/github/jannydiamond/spirit-island-scoring-app?branch=development)
 [![App](https://img.shields.io/badge/App%3A-https%3A%2F%2Fjannydiamond.github.io%2Fspirit--island--scoring--app-orange.svg)](https://jannydiamond.github.io/spirit-island-scoring-app/)
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
 

@@ -1,21 +1,40 @@
-import { createGlobalStyle } from 'styled-components';
-import 'rpg-awesome/css/rpg-awesome.min.css';
+import { createGlobalStyle } from 'styled-components'
+import { Theme } from 'types'
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+type Props = {
+  theme: Theme
+}
+
+const GlobalStyles = createGlobalStyle<Props>`
+  *, 
+  *::before, 
+  *::after {
+    box-sizing: inherit;
+  }
+
+  html {
+    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: ${props => props.theme.typography.fontFamily};
+    color: ${props => props.theme.colors.text.primary};
+    font-weight: ${props => props.theme.typography['text'].fontWeight};
+    font-size: ${props => props.theme.typography['text'].fontSize};
+    line-height: ${props => props.theme.typography['text'].lineHeight};
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
+    &.menu-open {
+      overflow: hidden;
+    }
   }
+
+ 
 `
 
-export default GlobalStyle;
+export default GlobalStyles
