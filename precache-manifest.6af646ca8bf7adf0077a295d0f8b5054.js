@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3b3ff65ef6e9ff9f4c9c46f4bdf4016",
+    "revision": "527f81efb1a10076aaff331c825682f5",
     "url": "/spirit-island-scoring-app/index.html"
   },
   {
-    "revision": "5a6654feb9df66225a26",
-    "url": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css"
+    "revision": "ae93b28e3b74bb832003",
+    "url": "/spirit-island-scoring-app/static/css/2.2228b864.chunk.css"
   },
   {
-    "revision": "5a6654feb9df66225a26",
-    "url": "/spirit-island-scoring-app/static/js/2.4eaa6303.chunk.js"
+    "revision": "ae93b28e3b74bb832003",
+    "url": "/spirit-island-scoring-app/static/js/2.75e23abb.chunk.js"
   },
   {
-    "revision": "a4c3901b56fd603d9b19",
-    "url": "/spirit-island-scoring-app/static/js/main.0fd11566.chunk.js"
+    "revision": "928d7b5eb39d16fe9a880722c974b51e",
+    "url": "/spirit-island-scoring-app/static/js/2.75e23abb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c27bc88409baf05ef1f2",
-    "url": "/spirit-island-scoring-app/static/js/runtime~main.dc13e0a8.js"
+    "revision": "becdf422c8e16fef0017",
+    "url": "/spirit-island-scoring-app/static/js/main.66d7c758.chunk.js"
+  },
+  {
+    "revision": "04e7b4b843be78962c52",
+    "url": "/spirit-island-scoring-app/static/js/runtime-main.469a6130.js"
   },
   {
     "revision": "bc54396771c64863193f7a3fe93d9cff",

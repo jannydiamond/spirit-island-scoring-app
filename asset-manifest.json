@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.js": "/spirit-island-scoring-app/static/js/main.0fd11566.chunk.js",
-    "main.js.map": "/spirit-island-scoring-app/static/js/main.0fd11566.chunk.js.map",
-    "runtime~main.js": "/spirit-island-scoring-app/static/js/runtime~main.dc13e0a8.js",
-    "runtime~main.js.map": "/spirit-island-scoring-app/static/js/runtime~main.dc13e0a8.js.map",
-    "static/css/2.e1934e69.chunk.css": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css",
-    "static/js/2.4eaa6303.chunk.js": "/spirit-island-scoring-app/static/js/2.4eaa6303.chunk.js",
-    "static/js/2.4eaa6303.chunk.js.map": "/spirit-island-scoring-app/static/js/2.4eaa6303.chunk.js.map",
+    "main.js": "/spirit-island-scoring-app/static/js/main.66d7c758.chunk.js",
+    "main.js.map": "/spirit-island-scoring-app/static/js/main.66d7c758.chunk.js.map",
+    "runtime-main.js": "/spirit-island-scoring-app/static/js/runtime-main.469a6130.js",
+    "runtime-main.js.map": "/spirit-island-scoring-app/static/js/runtime-main.469a6130.js.map",
+    "static/css/2.2228b864.chunk.css": "/spirit-island-scoring-app/static/css/2.2228b864.chunk.css",
+    "static/js/2.75e23abb.chunk.js": "/spirit-island-scoring-app/static/js/2.75e23abb.chunk.js",
+    "static/js/2.75e23abb.chunk.js.map": "/spirit-island-scoring-app/static/js/2.75e23abb.chunk.js.map",
     "index.html": "/spirit-island-scoring-app/index.html",
-    "precache-manifest.02e1c5b3dacab4cab4d5bb3b784f99a3.js": "/spirit-island-scoring-app/precache-manifest.02e1c5b3dacab4cab4d5bb3b784f99a3.js",
+    "precache-manifest.6af646ca8bf7adf0077a295d0f8b5054.js": "/spirit-island-scoring-app/precache-manifest.6af646ca8bf7adf0077a295d0f8b5054.js",
     "service-worker.js": "/spirit-island-scoring-app/service-worker.js",
-    "static/css/2.e1934e69.chunk.css.map": "/spirit-island-scoring-app/static/css/2.e1934e69.chunk.css.map",
+    "static/css/2.2228b864.chunk.css.map": "/spirit-island-scoring-app/static/css/2.2228b864.chunk.css.map",
+    "static/js/2.75e23abb.chunk.js.LICENSE.txt": "/spirit-island-scoring-app/static/js/2.75e23abb.chunk.js.LICENSE.txt",
     "static/media/rpg-awesome.min.css": "/spirit-island-scoring-app/static/media/rpgawesome-webfont.e31a701a.woff"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.469a6130.js",
+    "static/css/2.2228b864.chunk.css",
+    "static/js/2.75e23abb.chunk.js",
+    "static/js/main.66d7c758.chunk.js"
+  ]
 }
