@@ -11,24 +11,24 @@ type Props = {
   name: string
 }
 
-const Checkbox = ({
+const Radiobutton = ({
   id,
   label,
   checked,
   name
 }: Props) => {
-  const [checkboxCheckedState, setCheckboxCheckedState] = useState(checked);
+  const [radioCheckedState, setRadioCheckedState] = useState(checked);
 
   const handleChange = () => {
-    setCheckboxCheckedState(!checkboxCheckedState);
+    setRadioCheckedState(!radioCheckedState)
   }
 
   return (
     <Wrapper>
-      <Input id={id} type="checkbox" name={name} onChange={handleChange} defaultChecked={checkboxCheckedState} />
+      <Input id={id} type="radio" name={name} onChange={handleChange} defaultChecked={radioCheckedState} />
       <Label htmlFor={id}>{label}</Label>
     </Wrapper>
   );
 }
 
-export default Checkbox
+export default Radiobutton

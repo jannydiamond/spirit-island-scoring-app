@@ -20,6 +20,7 @@ const Header = ({
       <Switch>
         <Route exact path='/scorings' render={() => 'Scorings'} />
         <Route exact path='/scorings/:id' render={() => 'Scorings'} />
+        <Route exact path='/create-scoring' render={() => 'Create scoring'} />
         <Route exact path='/settings' render={() => 'Settings'} />
       </Switch>
     </Title>

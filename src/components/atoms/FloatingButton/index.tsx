@@ -4,12 +4,16 @@ import Button from './__styled__/Button'
 import Icon from './__styled__/Icon'
 
 type Props = {
-  icon: string
+  icon: string,
+  onClick?: () => void
 }
 
-const FloatingButton = (props: Props) => (
-  <Button>
-    <Icon className="material-icons">{props.icon}</Icon>
+const FloatingButton = ({
+  icon,
+  onClick
+}: Props) => (
+  <Button onClick={onClick}>
+    <Icon className="material-icons">{icon}</Icon>
   </Button>
 );
 

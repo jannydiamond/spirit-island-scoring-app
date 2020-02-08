@@ -6,6 +6,7 @@ import ScoringDetail from 'components/pages/ScoringDetail'
 import Settings from 'components/pages/Settings'
 import Header from 'components/molecules/Header'
 import Main from 'components/atoms/__styled__/Main'
+import ScoringCreate from 'components/pages/ScoringCreate';
 
 const MainApp = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -25,6 +26,7 @@ const MainApp = () => {
         <Switch>
           <Route exact path='/scorings' component={Scorings} />
           <Route exact path='/scorings/:id' component={ScoringDetail} />
+          <Route exact path='/create-scoring' component={ScoringCreate} />
           <Route exact path='/settings' component={Settings} />
           <Route exact path='/' render={() => <Redirect to='/scorings' />} />
         </Switch>

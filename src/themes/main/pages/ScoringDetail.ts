@@ -5,9 +5,6 @@ import { pxToRem } from 'themes/main/helpers/pxToRem'
 const ScoringDetail = {
   alternatingBackground: Colors.gray.light,
   border: `1px solid ${Colors.gray.light}`,
-  sectionHeadline: {
-    fontSize: pxToRem(16),
-  },
   header: {
     headline: {
       fontSize: pxToRem(28),

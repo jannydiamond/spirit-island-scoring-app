@@ -4,6 +4,7 @@ const Colors = {
   gray: {
     default: '#dadada',
     light: '#efefef',
+    dark:'#b3b3b3',
   },
   primary: {
     default: '#0a3d62',

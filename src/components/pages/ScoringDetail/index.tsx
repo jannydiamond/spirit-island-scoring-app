@@ -1,19 +1,20 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 
 import { Games } from 'config/data'
 
 import * as types from 'types'
 
+import SectionHeadline from 'components/atoms/__styled__/SectionHeadline'
 import FloatingButton from 'components/atoms/FloatingButton'
 import LabeledText from 'components/atoms/LabeledText'
 import Section from './__styled__/Section'
-import SectionHeadline from './__styled__/SectionHeadline'
 import Header from './Header'
 import PlayerTable from './PlayerTable'
 
 
 const ScoringDetail = () => {
+  const history = useHistory()
   const { id } = useParams()
   const game = Games.find((game: types.Game) => game.id === parseInt(id || '1')) || {} as types.Game
 
@@ -58,7 +59,7 @@ const ScoringDetail = () => {
         </LabeledText>
       </Section> 
 
-      <FloatingButton icon="edit" />
+      <FloatingButton icon="edit" onClick={() => history.push('/create-scoring')} />
     </React.Fragment>
   )
 }

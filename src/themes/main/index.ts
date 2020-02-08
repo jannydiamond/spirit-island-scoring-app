@@ -16,6 +16,11 @@ import SpiritBadge from 'themes/main/components/SpiritBadge'
 import ScoringInfoList from 'themes/main/components/ScoringInfoList'
 import Tile from 'themes/main/components/Tile'
 import Checkbox from 'themes/main/components/Checkbox'
+import Radiobutton from 'themes/main/components/Radiobutton'
+import SectionHeadline from 'themes/main/components/SectionHeadline'
+import Button from 'themes/main/components/Button'
+import Input from 'themes/main/components/Input'
+import Select from 'themes/main/components/Select'
 
 const main = {
   colors: {
@@ -32,6 +37,9 @@ const main = {
     backLink: {
       ...BackLink,
     },
+    button: {
+      ...Button,
+    },
     checkbox: {
       ...Checkbox,
     },
@@ -44,14 +52,26 @@ const main = {
     githubLink: {
       ...GithubLink,
     },
+    input: {
+      ...Input,
+    },
     labeledText: {
       ...LabeledText,
+    },
+    radiobutton: {
+      ...Radiobutton,
     },
     scoring: {
       ...Scoring,
     },
     scoringInfoList: {
       ...ScoringInfoList,
+    },
+    sectionHeadline: {
+      ...SectionHeadline,
+    },
+    select: {
+      ...Select,
     },
     spiritBadge: {
       ...SpiritBadge,
