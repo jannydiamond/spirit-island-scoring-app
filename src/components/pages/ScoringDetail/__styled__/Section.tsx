@@ -2,13 +2,9 @@ import styled from 'styled-components/macro'
 
 import Table from 'components/pages/ScoringDetail/PlayerTable/__styled__/Table'
 import LabeledText from 'components/atoms/LabeledText/__styled__/Wrapper'
+import SectionBase from 'components/atoms/__styled__/Section'
 
-const Section = styled('section')`
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  margin: 0 -16px;
-
+const Section = styled(SectionBase)`
   ${LabeledText} {
     margin: 0;
     padding: 16px;

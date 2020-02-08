@@ -1,4 +1,5 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 
 import { Games } from 'config/data'
 
@@ -17,11 +18,12 @@ const renderTiles = () => Games.map(
 )
 
 const Scorings = () => {
+  const history = useHistory()
   
   return (
     <React.Fragment>
       {renderTiles()}
-      <FloatingButton icon="add" />
+      <FloatingButton icon="add" onClick={() => history.push('/create-scoring')} />
     </React.Fragment>
   );
 }

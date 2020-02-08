@@ -13,7 +13,7 @@ type Props = {
 const renderExpansions = (expansions: types.Expansions ) => {
   return expansions.map((expansion: types.Expansion) => (
     <ListItem key={expansion.id}>
-      <Checkbox id={expansion.id} label={expansion.name} checked={expansion.selected} />
+      <Checkbox id={expansion.id} name="expansions" label={expansion.name} checked={expansion.selected} />
     </ListItem>
   ))
 }
