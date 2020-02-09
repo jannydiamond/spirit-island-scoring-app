@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/spirit-island-scoring-app/static/js/main.7433daec.chunk.js",
-    "main.js.map": "/spirit-island-scoring-app/static/js/main.7433daec.chunk.js.map",
+    "main.js": "/spirit-island-scoring-app/static/js/main.e0ad04cd.chunk.js",
+    "main.js.map": "/spirit-island-scoring-app/static/js/main.e0ad04cd.chunk.js.map",
     "runtime-main.js": "/spirit-island-scoring-app/static/js/runtime-main.469a6130.js",
     "runtime-main.js.map": "/spirit-island-scoring-app/static/js/runtime-main.469a6130.js.map",
     "static/css/2.2228b864.chunk.css": "/spirit-island-scoring-app/static/css/2.2228b864.chunk.css",
-    "static/js/2.579dc771.chunk.js": "/spirit-island-scoring-app/static/js/2.579dc771.chunk.js",
-    "static/js/2.579dc771.chunk.js.map": "/spirit-island-scoring-app/static/js/2.579dc771.chunk.js.map",
+    "static/js/2.7142707a.chunk.js": "/spirit-island-scoring-app/static/js/2.7142707a.chunk.js",
+    "static/js/2.7142707a.chunk.js.map": "/spirit-island-scoring-app/static/js/2.7142707a.chunk.js.map",
     "index.html": "/spirit-island-scoring-app/index.html",
-    "precache-manifest.e8f2b71aadde1f35fe083bc6d7470cca.js": "/spirit-island-scoring-app/precache-manifest.e8f2b71aadde1f35fe083bc6d7470cca.js",
+    "precache-manifest.fb99e03529a9db986dc9e3702f965439.js": "/spirit-island-scoring-app/precache-manifest.fb99e03529a9db986dc9e3702f965439.js",
     "service-worker.js": "/spirit-island-scoring-app/service-worker.js",
     "static/css/2.2228b864.chunk.css.map": "/spirit-island-scoring-app/static/css/2.2228b864.chunk.css.map",
-    "static/js/2.579dc771.chunk.js.LICENSE.txt": "/spirit-island-scoring-app/static/js/2.579dc771.chunk.js.LICENSE.txt",
+    "static/js/2.7142707a.chunk.js.LICENSE.txt": "/spirit-island-scoring-app/static/js/2.7142707a.chunk.js.LICENSE.txt",
     "static/media/rpg-awesome.min.css": "/spirit-island-scoring-app/static/media/rpgawesome-webfont.e31a701a.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.469a6130.js",
     "static/css/2.2228b864.chunk.css",
-    "static/js/2.579dc771.chunk.js",
-    "static/js/main.7433daec.chunk.js"
+    "static/js/2.7142707a.chunk.js",
+    "static/js/main.e0ad04cd.chunk.js"
   ]
 }
