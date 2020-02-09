@@ -1,13 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Provider } from 'react-redux'
 
-import App from './components/App';
-import * as serviceWorker from './serviceWorker';
+import store from 'Redux/store'
+
+import App from 'components/App'
+import * as serviceWorker from './serviceWorker'
+
 
 ReactDOM.render(
-  <React.Fragment>
+  <Provider store={store}>
     <App />
-  </React.Fragment>, 
+  </Provider>, 
   document.getElementById('root')
 );
 
