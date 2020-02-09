@@ -7,13 +7,19 @@ import List from './__styled__/List'
 import ListItem from './__styled__/ListItem'
 
 type Props = {
-  expansions: types.Expansions 
+  expansions: types.Expansions
 }
 
 const renderExpansions = (expansions: types.Expansions ) => {
-  return expansions.map((expansion: types.Expansion) => (
+  const EXPANSIONS = Object.values(expansions)
+  return EXPANSIONS.map((expansion: types.Expansion) => (
     <ListItem key={expansion.id}>
-      <Checkbox id={expansion.id} name="expansions" label={expansion.name} checked={expansion.selected} />
+      <Checkbox
+        id={expansion.id}
+        name="expansions"
+        label={expansion.name}
+        checked={false}
+      />
     </ListItem>
   ))
 }

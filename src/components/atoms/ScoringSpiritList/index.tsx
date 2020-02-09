@@ -13,7 +13,7 @@ type Props = {
 const renderPlayers = (players: types.Player[]) => {
   return players.map((player: types.Player) => (
     <ListItem key={player.id}>
-      <SpiritBadge name={player.spirit.name} id={player.spirit.id} />
+      <SpiritBadge name={player.spirit.name} id={player.spirit.id} shortName={player.spirit.shortName} />
     </ListItem>
   ));
 };

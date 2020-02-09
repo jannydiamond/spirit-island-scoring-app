@@ -1,5 +1,9 @@
 import React from 'react'
 
+import data from 'config'
+
+import * as types from 'types'
+
 import FormGroupRadio from 'components/molecules/FormGroupRadio'
 import FormGroupSelect from 'components/molecules/FormGroupSelect'
 import SectionHeadline from 'components/atoms/__styled__/SectionHeadline'
@@ -11,13 +15,21 @@ const optionsMapTyp = [
   { value: 'special', label: 'Special' },
 ]
 
-const optionsAdversary = [
-  { value: 'BP', label: 'Brandenburg-Preußen' },
-]
+const ADVERSARIES = Object.values(data.NORMALIZEDDATA.adversaries)
+const optionsAdversary = ADVERSARIES.map((adversary: types.Adversary) => {
+  return {
+    value: adversary.id,
+    label: adversary.name,
+  }
+})
 
-const optionsScenario = [
-  { value: 'XX', label: 'Scenario X' },
-]
+const SCENARIOS = Object.values(data.NORMALIZEDDATA.scenarios)
+const optionsScenario = SCENARIOS.map((scenario: types.Scenario) => {
+  return {
+    value: scenario.id,
+    label: scenario.name,
+  }
+})
 
 const optionsAdversaryLevel = [
   { value: '1', label: '1' },
@@ -25,6 +37,7 @@ const optionsAdversaryLevel = [
   { value: '3', label: '3' },
   { value: '4', label: '4' },
   { value: '5', label: '5' },
+  { value: '6', label: '6' },
 ]
 
 const GameSetup = () => {

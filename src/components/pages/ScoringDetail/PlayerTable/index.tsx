@@ -15,15 +15,23 @@ type Props = {
 }
 
 const renderPlayers = (game: types.Game) => {
-  return game.players.map(
-    (player: types.Player) => (
-      <TableRow key={player.id}>
-        <TableCellBody type="spirit" className="spirit"><SpiritBadge name={player.spirit.name} id={player.spirit.id} /></TableCellBody>
-        <TableCellBody type="board" className="board">{player.board}</TableCellBody>
-        <TableCellBody type="player" className="player">{player.name}</TableCellBody>
-      </TableRow>
-    )
-  );
+  return game.players.map((player: types.Player) => (
+    <TableRow key={player.id}>
+      <TableCellBody type="spirit" className="spirit">
+        <SpiritBadge
+          name={player.spirit.name}
+          id={player.spirit.id}
+          shortName={player.spirit.shortName}
+        />
+      </TableCellBody>
+      <TableCellBody type="board" className="board">
+        {player.board}
+      </TableCellBody>
+      <TableCellBody type="player" className="player">
+        {player.name}
+      </TableCellBody>
+    </TableRow>
+  ))
 }
 
 const PlayerTable = ({

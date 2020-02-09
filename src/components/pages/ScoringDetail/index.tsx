@@ -33,10 +33,10 @@ const ScoringDetail = () => {
           {game.mapType}
         </LabeledText>
         <LabeledText label="Adversary">
-          {game.adversary ? `${game.adversary.name}, Level ${game.adversary.level}` : '-'}
+          {game.adversary ? `${game.adversary.name}, Level ${game.adversaryLevel}` : '-'}
         </LabeledText>
         <LabeledText label="Scenario">
-          {game.scenario ? `${game.scenario.name}, Level ${game.scenario.level}` : '-'}
+          {game.scenario ? `${game.scenario.name}, Level ${game.scenario.difficulty}` : '-'}
         </LabeledText>
         <LabeledText label="Blight Card">
           {game.blightCard ? 'yes' : 'no'}

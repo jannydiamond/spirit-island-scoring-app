@@ -1,5 +1,9 @@
 import React from 'react'
 
+import data from 'config'
+
+import * as types from 'types'
+
 import FormGroupInput from 'components/molecules/FormGroupInput'
 import FormGroupSelect from 'components/molecules/FormGroupSelect'
 import Wrapper from './__styled__/Wrapper'
@@ -15,13 +19,13 @@ const optionsBoard = [
   { value: 'D', label: 'D' },
 ]
 
-const optionsSpirit = [
-  { value: 'RG', label: 'Rampend Green' },
-  { value: 'L', label: 'Lightning' },
-  { value: 'TS', label: 'Thunder Speaker' },
-  { value: 'R', label: 'River' },
-  { value: 'S', label: 'Serpent' },
-]
+const SPIRITS = Object.values(data.NORMALIZEDDATA.spirits)
+const optionsSpirit = SPIRITS.map((spirit: types.Spirit) => {
+  return {
+    value: spirit.id,
+    label: spirit.name
+  }
+})
 
 const Player = ({
   playerNumber
