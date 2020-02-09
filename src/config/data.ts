@@ -7,24 +7,36 @@ export const Games: types.Games = [{
     id: 1,
     name: 'Player 1',
     spirit: {
-      id: 'RG',
-      name: 'Rampend Green'
+      id: 'ASpreadOfRampantGreen',
+      shortName: 'RG',
+      imgUrl: '',
+      name: 'A Spread Of Rampant Green',
+      complexity: 'moderate',
+      expansion: 'SI',
     },
     board: 'A'
   }, {
     id: 2,
     name: 'Player 2',
     spirit: {
-      id: 'L',
-      name: 'Lightning'
+      id: 'LightningsSwiftStrike',
+      shortName: 'L',
+      imgUrl: '',
+      name: 'Lightning\'s Swift Strike',
+      complexity: 'low',
+      expansion: 'SI',
     },
     board: 'C'
   }, {
     id: 3,
     name: 'Player 3',
     spirit: {
-      id: 'TS',
-      name: 'Thunderspeaker'
+      id: 'Thunderspeaker',
+      shortName: 'TS',
+      imgUrl: '',
+      name: 'Thunderspeaker',
+      complexity: 'moderate',
+      expansion: 'SI',
     },
     board: 'B'
   }
@@ -33,10 +45,10 @@ export const Games: types.Games = [{
   scoring: 52,
   mapType: 'normal',
   adversary: {
-    id: 1,
-    name: 'Brandenburg-Preußen',
-    level: 3
+    id: 'BrandenburgPrussia',
+    name: 'Brandenburg-Prussia',
   },
+  adversaryLevel: 3,
   blightCard: true,
   eventDeck: true,
   blightToken: 11,
@@ -49,16 +61,24 @@ export const Games: types.Games = [{
     id: 1,
     name: 'Player 1',
     spirit: {
-      id: 'R',
-      name: 'River'
+      id: 'RiverSurgesInSunlight',
+      shortName: 'R',
+      imgUrl: '',
+      name: 'River Surges In Sunlight',
+      complexity: 'low',
+      expansion: 'SI',
     },
     board: 'B'
   }, {
     id: 2,
     name: 'Player 2',
     spirit: {
-      id: 'L',
-      name: 'Lightning'
+      id: 'LightningsSwiftStrike',
+      shortName: 'L',
+      imgUrl: '',
+      name: 'Lightning\'s Swift Strike',
+      complexity: 'low',
+      expansion: 'SI',
     },
     board: 'C'
   }],
@@ -66,10 +86,10 @@ export const Games: types.Games = [{
   scoring: 37,
   mapType: 'normal',
   adversary: {
-    id: 1,
-    name: 'Brandenburg-Preußen',
-    level: 3
+    id: 'BrandenburgPrussia',
+    name: 'Brandenburg-Prussia',
   },
+  adversaryLevel: 3,
   blightCard: true,
   eventDeck: true,
   blightToken: 8,
@@ -83,24 +103,36 @@ export const Games: types.Games = [{
     id: 1,
     name: 'Player 1',
     spirit: {
-      id: 'RG',
-      name: 'Rampend Green'
+      id: 'ASpreadOfRampantGreen',
+      shortName: 'RG',
+      imgUrl: '',
+      name: 'A Spread Of Rampant Green',
+      complexity: 'moderate',
+      expansion: 'SI',
     },
     board: 'C'
   }, {
     id: 2,
     name: 'Player 2',
     spirit: {
-      id: 'S',
-      name: 'Serpent'
+      id: 'SerpentSlumberingBeneathTheIsland',
+      shortName: 'S',
+      imgUrl: '',
+      name: 'Serpent Slumbering Beneath The Island',
+      complexity: 'high',
+      expansion: 'Promos',
     },
     board: 'A'
   }, {
     id: 3,
     name: 'Player 3',
     spirit: {
-      id: 'TS',
-      name: 'Thunderspeaker'
+      id: 'Thundespeaker',
+      shortName: 'TS',
+      imgUrl: '',
+      name: 'Thundespeaker',
+      complexity: 'moderate',
+      expansion: 'SI',
     },
     board: 'D'
   }
@@ -109,14 +141,14 @@ export const Games: types.Games = [{
   scoring: 43,
   mapType: 'special',
   adversary: {
-    id: 1,
-    name: 'Brandenburg-Preußen',
-    level: 3
+    id: 'BrandenburgPrussia',
+    name: 'Brandenburg-Prussia'
   },
+  adversaryLevel: 3,
   scenario: {
-    id: 1,
-    name: 'Scenario Name',
-    level: 1
+    id: 'SecondWave',
+    name: 'SecondWave',
+    difficulty: 1
   },
   blightCard: true,
   eventDeck: true,
@@ -124,21 +156,3 @@ export const Games: types.Games = [{
   dahan: 15,
   explorerCards: 3
 }]
-
-export const Expansions: types.Expansions = [
-  {
-    id: "core",
-    name: "Spirit Island Core Game",
-    selected: false
-  },
-  {
-    id: "bac",
-    name: "Branch and Claws",
-    selected: true
-  },
-  {
-    id: "promo1",
-    name: "Promo Spirits 1",
-    selected: false
-  }
-]

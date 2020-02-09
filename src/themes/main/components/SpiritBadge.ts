@@ -10,11 +10,11 @@ const SpiritBadge = {
   },
   spirit: {
     background: {
-      'RG': Colors.spirits['RG'],
-      'L': Colors.spirits['L'],
-      'TS': Colors.spirits['TS'],
-      'R': Colors.spirits['R'],
-      'S': Colors.spirits['S'],
+      'ASpreadOfRampantGreen': Colors.spirits['RG'],
+      'LightningsSwiftStrike': Colors.spirits['L'],
+      'Thunderspeaker': Colors.spirits['TS'],
+      'RiverSurgesInSunlight': Colors.spirits['R'],
+      'SerpentSlumberingBeneathTheIsland': Colors.spirits['S'],
     },
   },
 }
